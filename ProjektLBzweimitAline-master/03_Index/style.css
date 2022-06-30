@@ -1,0 +1,689 @@
+
+@import{
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Sora:wght@300;400;700&display=swap');
+</style>}
+
+
+
+
+
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Sora', sans-serif;
+    scroll-behavior: smooth;
+
+
+}
+
+
+
+
+section {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+}
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    position: fixed;
+    z-index: 999;
+    max-width: 100%;
+
+
+}
+
+header .logo{
+
+    position: relative;
+    max-width: 80px;
+
+}
+
+header ul{
+    position: relative;
+    display: flex;
+}
+
+header ul li{
+    list-style: none;
+}
+header ul li a{
+    display: inline-block;
+    color: black;
+    font-weight: 500;
+    margin-left: 40px;
+    text-decoration: none;
+}
+
+
+.content{
+ position: relative;
+  width:   100%;
+ display: flex;
+    justify-content: space-between;
+    align-items: center ;
+
+}
+
+.content .textBox{
+  position: relative;
+    max-width: 550px;
+
+}
+
+.content .textBox h1{
+   color: tan;
+    font-size: 4em;
+    line-hight: 1.4em;
+    font-weight: 600;
+    padding-bottom: 20px;
+
+}
+
+.content .textBox h2 span{
+   color: darkgray;
+    font-size: 24px;
+    font-weight: 600;
+    color: darkgray;
+    letter-spacing: 2px;
+    line-height: 28px;
+
+
+}
+.textBox p{
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+
+}
+
+
+.content .textBox a{
+    display: inline-block;
+    margin-top: 40px;
+    padding: 10px 20px;
+  background: tan;
+    color: white;
+    border-radius:50px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 1px;
+
+
+
+
+}
+.content .textBox a:hover{
+    background: black;
+    transition: .4s;
+
+}
+
+
+
+.content .HomeBild{
+ width: 600px;
+
+ display: flex;
+    justify-content: flex-end;
+padding-right: 100px;
+margin-top: 50px;
+
+}
+
+.content .HomeBild img{
+max-width: 340px;
+
+}
+
+.sci{
+    position: absolute;
+    top: 50%;
+   right:0;
+    transform: translateY (-50%;)
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 20px;
+    position: fixed;
+    background-color: tan;
+    padding: 1px 1px;
+    border-radius: 10px;
+    z-index: 1000;
+
+}
+
+
+
+.sci li{
+    list-style: none;
+
+}
+
+.sci li a{
+    display: inline-block;
+    margin: 5px 0;
+    transform: scale(0.6);
+filter: invert(1);
+
+}
+
+.circle{
+position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: tan;
+    clip-path: circle(600px at right 800px);
+}
+.Über mich{
+width: 100%;
+padding: auto;
+
+}
+
+.main img{
+height: 500px;
+width: auto;
+    margin-left: 50px;
+
+}
+
+.main .gif{
+    height: 90px;
+    width: auto;
+    transform: rotate(15deg);
+    display:flex;
+   position: absolute;
+    padding-left: 400px;
+
+}
+.about-text{
+width: 500px;
+    font-weight:500;
+    font-size: 32px;
+    margin-left:300px;
+    margin-top: 50px;
+
+
+}
+.main{
+
+max-width: 100%;
+display-items: cover;
+display: flex;
+justify-content: flex-start;
+
+}
+
+.about-text h2{
+color:darkgrey;
+font-size: 36px;
+    font-weight: 600;}
+
+.about-text h5{
+color: tan;
+letter-spacing: 2px;
+font-size: 22px;
+margin-bottom: 25px;
+text-transform: capitalize;
+    line-height: 28px;
+}
+
+.about-text h5 span{
+color: black;
+}
+.about-text p{
+letter-spacing: 1px;
+line-height: 28px;
+margin-bottom: 45px;
+font-size: 18px;
+}
+
+#buttons{
+background-color: tan;
+color: white;
+text-decoration: none;
+border: 2px solid transparent;
+font-size: 16px;
+    display: inline-block;
+
+    padding: 10px 20px;
+    background: tan;
+    color: white;
+    border-radius:50px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    transition: .4s;
+    text-decoration: none;
+}
+
+#buttons:hover{
+background-color: black;
+border: 2px tan
+cursor: pointer;
+    transition: .4s;
+
+}
+
+.service{
+
+    width: 100%;
+
+}
+
+.title h2{
+color: darkgray;
+    font-weight:600;
+    font-size: 40px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.box{
+display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+
+}
+
+.card{
+
+    height: 365px;
+    width: 300px;
+    padding: 20px 35px;
+    background: black;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overfolw: hidden;
+    text-align: center;
+}
+
+.card .serviceIcons{
+    font-size: 30px;
+display: flex;
+    text-align: center;
+    marign: 25px;
+    width: 32px;
+    height: 32px;
+    justify-content: center;
+   margin-left: 100px;
+    margin-bottom: 10px;
+
+}
+
+
+
+h5{
+    padding-top: 5px;
+    color: white;
+    font-size: 24px;
+    margin-bottom: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 28px;
+
+}
+.container{
+position: relative;
+    min-width: 800px;
+    min-height: 550px;
+    display: flex;
+}
+
+.pra p{
+    padding-top: 15px;
+    color: tan;
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 25px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 28px;
+}
+
+.card .button{
+    background-color: tan;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent:
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 50px;
+    transition: .4s;
+    font-size: 16px;
+}
+
+.card .button:hover{
+    background-color: darkgrey;
+    border: 2px tan
+    cursor: pointer;
+}
+
+.container .containerInfo{
+    z-index: 998;
+    position: absolute;
+    width: 280px;
+    margin-left: 50px;
+    opacity: 1;
+    background: tan;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 11px 5px 18px 5px rgba(0,0,0,0.21);
+
+
+
+}
+.container .containerInfo h2{
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+
+
+}
+.container .containerInfo ul.info{
+    position: relative;
+
+    margin-left: -34px;
+   max-width: 80%;
+    letter-spacing: 1px;
+
+
+
+}
+
+.container .containerInfo ul.info li{
+    position: relative;
+    list-style: none;
+    display: flex;
+    margin: 50px 0;
+    cursor: pointer;
+    align-items: flex-start;
+    letter-spacing: 1px;
+
+}
+
+
+.container .containerInfo ul.info li span:nth-child(1){
+    width: 10px;
+    min-width: 30px;
+    letter-spacing: 1px;
+}
+
+
+.container .containerInfo ul.info li span:nth-child(1)img{
+    max-width: 100%;
+    filter: invert(1);
+    letter-spacing: 1px;
+}
+
+.container .containerInfo ul.info li span:nth-child(2){
+    color: white;
+    margin-left: 5px;
+
+    font-weight:500;
+    letter-spacing: 1px;
+
+}
+
+
+
+.container .containerForm{
+    z-index: 997;
+    position: absolute;
+    padding: 70px 70px;
+    padding-left: 250px;
+    margin-left: 70px;
+    width: 920px;
+    height: 120%;
+   box-shadow:  17px 16px 18px -3px rgba(0,0,0,0.2);
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+
+
+.container .containerForm h2{
+color: tan;
+    font-size: 28px;
+    font-weight: 600;
+
+    padding-bottom: 30px;
+    letter-spacing: 1px;
+
+
+}
+
+.container .containerForm .formBox{
+    position: relative;
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    letter-spacing: 1px;
+
+}
+
+.container .containerForm .formBox .inputBox{
+
+position: relative;
+    margin-bottom: 5px;
+
+}
+
+.container .containerForm .formBox .inputBox .w50{
+ width: 47%;
+}
+
+.container .containerForm .formBox .inputBox .w100{
+    width: 100%;
+
+}
+
+.container .containerForm .formBox .inputBox input,.container .containerForm .formBox .inputBox textarea{
+ width: 100%;
+    resize: none;
+    padding: 25px;
+    padding-left: 0px;
+    font-size: 17px;
+    font-weight: 500;
+    color: black;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid darkgrey;
+    line-height: 1px;
+    line-height: normal;
+
+    section #5{
+        min-height: auto;
+    }
+
+section #3{
+    min-height: auto;
+}
+
+
+}
+
+.container .containerForm .formBox .inputBox textarea{
+
+    padding-top: 35px;
+}
+
+.container .containerForm .formBox .inputBox span{
+   position: absolute;
+    left: 0;
+    padding: 5px 0;
+    pointer-events: none;
+    font-size: 14px;
+    font-weight: 500px;
+    transition: 0.4s;
+    letter-spacing: 1px;
+}
+
+.container .containerForm .formBox .inputBox input:focus ~ span,
+.container .containerForm .formBox .inputBox input:valid ~ span,
+.container .containerForm .formBox .inputBox textarea:focus ~ span,
+.container .containerForm .formBox .inputBox textarea:valid ~ span{
+
+    transform: translateY(-20x);
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: tan;
+    font-weight: 500;
+
+}
+.container .containerForm .formBox .inputBox input[type="submit"]{
+
+
+    cursor: pointer;
+    color: white;
+    border: none;
+    max-width: 150px;
+
+    background-color: tan;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+
+    transiiton: 0.4s;
+
+    padding: 10px 20px;
+    background: tan;
+    color: white;
+    border-radius:50px;
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 60px;
+}
+
+
+
+
+.container .containerForm .formBox .inputBox input[type="submit"]:hover{
+    background:black;
+    transition: 0.4s;
+
+}
+
+
+
+footer{
+    position: relative;
+    width: 100%;
+    height: 100px;
+
+    background: tan;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+footer p:nth-child(1) {
+    font-size: 16px;
+    color: white;
+    width: 500px;
+    text-align: center;
+padding-top: 20px;
+
+    letter-spacing: 1px;
+
+
+}
+
+
+#carouselExampleIndicators {
+   width: auto;
+    margin-right: 300px;
+
+}
+
+.silder-image{
+
+
+    background-size: cover;
+    height: 500px;
+    width: auto;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+
+
+#quote p{
+    display: flex;
+    color: white;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-style: italic;
+    margin-left: 250px;
+max-width: 400px;
+    background: tan;
+    padding: 20px 30px;
+    border-radius:15px;
+
+
+
+}
+
+
+video{
+
+    width: 500px;
+    height: auto;
+}
+
+.btn-secondary{
+    background-color: tan;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent:
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 50px;
+    transition: .4s;
+    font-size: 16px;
+}
+
+
+
+

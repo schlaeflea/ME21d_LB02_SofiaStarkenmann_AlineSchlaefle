@@ -1,0 +1,53 @@
+Index: 03_Index/Portfolio Sina Suter.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\r\n    <title>Sina Suter | Portfolio </title>\r\n    <link rel=\"stylesheet\" href=\"style.css\">\r\n</head>\r\n<body>\r\n\r\n\r\n<section>\r\n    <div class=\"circle\"></div>\r\n    <header>\r\n    <a href=\"#\" ><img src=\"/01_Footage/02_Icon/home.png\"class=\"logo\"></a>\r\n      <ul>\r\n          <li> <a href=\"#\">Home</a></li>\r\n          <li> <a href=\"#\">Gallerie</a></li>\r\n          <li> <a href=\"#\">Über mich</a></li>\r\n          <li> <a href=\"#\">Kontakt</a></li>\r\n      </ul>\r\n\r\n    </header>\r\n    <div class=\"content\">\r\n        <div class=\"textBox\">\r\n            <h1>Sina Suter </h1>\r\n            <h2>Willkommen zu <span>meinem Portfolio</span></h2>\r\n            <p>Willkommen auf meinem Portfolio. Klicke hier, <br>um mehr über mich und meine Arbeiten zu erfahren.</p>\r\n            <a href=\"#\">Erfahre mehr</a>\r\n        </div>\r\n\r\n        <div class=\"HomeBild\">\r\n            <img src=\"/01_Footage/01_Bilder/Homepage_Bild.jpg\" class=\"Portfolio Sina\">\r\n\r\n        </div>\r\n        </div>\r\n\r\n    <ul class=\"sci\">\r\n      <li><a href=\"#\"><img src=\"/01_Footage/02_Icon/facebook.png\"></a></li>\r\n        <li><a href=\"#\"><img src=\"/01_Footage/02_Icon/twitter.png\"></a></li>\r\n        <li><a href=\"#\"><img src=\"/01_Footage/02_Icon/instagram.png\"></a></li>\r\n    </ul>\r\n\r\n</section>\r\n\r\n<!----About me section start---->\r\n\r\n<section>\r\n<div class=\"Über mich\">\r\n   <div class=\"main\">\r\n    <img src=\"/01_Footage/01_Bilder/about_me.jpg\">\r\n    <div class=\"about-text\">\r\n    <h2>Über mich</h2>\r\n     <h5>Fotografin<span> & Designerin</span></h5>\r\n        <p>Vor rund 5 Jahren habe ich meine Leidenschaft fürs Fotografieren zum Beruf gemacht.\r\n\r\n            Aufgrund meiner langjährigen Erfahrung, einzigartige Momente und Emotionen fotografisch festzuhalten, konnte ich mir vor allem im Bereich Portrait Photography in der Schweiz einen Namen machen. 2014 habe ich zudem die Weiterbildung zum Master in Business Communications abgeschlossen.\r\n\r\n            Seit 2020 stehe ich auch für klassische Medien im Einsatz, der Zeitschrift «Schweizer Illustrierte» liefere ich zum Beispiel regelmässig Fotos. </p>\r\n        <button type=\"button\">Weiterlesen</button>\r\n    </div>\r\n   </div>\r\n</div>\r\n</section>\r\n\r\n<!----Kontakt---->\r\n\r\n<section>\r\n\r\n\r\n    <div class=\"container\">\r\n        <div class=\"containerInfo\">\r\n            <div>\r\n                <h2>Kontakt</h2>\r\n                <ul class=\"info\">\r\n                <li>\r\n                  <span><img src=\"/01_Footage/02_Icon/map_pointer_BOLD.svg\"></span>\r\n                <span>Maagplatz 5<br>\r\n                Schweiz<br>\r\n                8005 Zürich</span>\r\n                </li>\r\n\r\n                    <li>\r\n                        <span><img src=\"/01_Footage/02_Icon/e_mail_BOLD.svg\"></span>\r\n                        <span>sina.suter@gmail.com</span>\r\n                    </li>\r\n\r\n                    <li>\r\n                        <span><img src=\"/01_Footage/02_Icon/handset_BOLD.svg\"></span>\r\n                        <span>079 965 40 18</span>\r\n                    </li>\r\n\r\n                </ul>\r\n            </div>\r\n\r\n        <div class=\"containerForm\">\r\n        </div>\r\n        </div>\r\n    </div>\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n</section>\r\n\r\n<div class=\"contact-me\">\r\n     <p> Gerne bin ich für Sie da, egal ob Bilder, Animationen oder Illustrationen.</p>\r\n\r\n</div>\r\n\r\n<div class=\"Kontakt-Button\"><a class=\"button-two\" href=\"#\" >Kontaktieren</a></div>\r\n\r\n<!----Footer---->\r\n\r\n<footer>\r\n <p>Sina Suter</p>\r\n    <p class=\"end\">CopyRight by Sina Suter</p>\r\n\r\n\r\n</footer>\r\n\r\n</body>\r\n</html>\r\n\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/03_Index/Portfolio Sina Suter.html b/03_Index/Portfolio Sina Suter.html
+--- a/03_Index/Portfolio Sina Suter.html	(revision cd522bbe3a0b69c6890f364eb8c9f8cf845fee6b)
++++ b/03_Index/Portfolio Sina Suter.html	(date 1653055019450)
+@@ -98,42 +98,9 @@
+         </div>
+     </div>
+ 
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+ </section>
+ 
+-<div class="contact-me">
+-     <p> Gerne bin ich für Sie da, egal ob Bilder, Animationen oder Illustrationen.</p>
+ 
+-</div>
+-
+-<div class="Kontakt-Button"><a class="button-two" href="#" >Kontaktieren</a></div>
+ 
+ <!----Footer---->
+ 

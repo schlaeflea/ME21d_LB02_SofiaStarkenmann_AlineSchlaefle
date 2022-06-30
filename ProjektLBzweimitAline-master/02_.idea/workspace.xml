@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c8cb2c2c-de1b-4c73-a273-5cc591c803ee" name="Changes" comment="Hi, Test" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="299gfpDE1rwuV8l5dA5zi8GAgXg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/sofia/OneDrive - Bildungszentrum Zürichsee/01_Schule/1. Lehrjahr/01_Website Projekt mit Aline/03_Index",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sofia\OneDrive - Bildungszentrum Zürichsee\01_Schule\1. Lehrjahr\01_Website Projekt mit Aline\03_Index" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c8cb2c2c-de1b-4c73-a273-5cc591c803ee" name="Changes" comment="" />
+      <created>1652530820470</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1652530820470</updated>
+      <workItem from="1652530821639" duration="34000" />
+      <workItem from="1652531914696" duration="5570000" />
+      <workItem from="1652605790105" duration="8026000" />
+      <workItem from="1652616408939" duration="2817000" />
+      <workItem from="1652623566100" duration="2899000" />
+      <workItem from="1652631553666" duration="3187000" />
+      <workItem from="1652635252641" duration="2107000" />
+      <workItem from="1652638632393" duration="2034000" />
+      <workItem from="1652710800122" duration="3875000" />
+      <workItem from="1652717250378" duration="3406000" />
+      <workItem from="1652804904633" duration="3930000" />
+      <workItem from="1653049818753" duration="2855000" />
+    </task>
+    <task id="LOCAL-00001" summary="Hi, Test">
+      <created>1653052718468</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1653052718468</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Hi, Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hi, Test" />
+  </component>
+</project>
